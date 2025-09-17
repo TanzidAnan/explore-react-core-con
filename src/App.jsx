@@ -2,6 +2,7 @@
 import './App.css'
 import Counter from './Counter'
 import Tems from './Tems'
+import User from './User'
 
 function handleClick() {
   alert('button click')
@@ -23,6 +24,7 @@ function App() {
       <h3>React core concepts </h3>
       <Counter></Counter>
       <Tems></Tems>
+      <User></User>
       <button onClick={handleClick}>click Me</button>
       <button onClick={handleClick2}>Click 2</button>
       <button onClick={() => { alert('button click3') }}>third</button>
